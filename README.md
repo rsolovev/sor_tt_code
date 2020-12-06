@@ -24,9 +24,9 @@ or
 http://localhost
 
 
-UPD: nginx added for load balancing
+UPD: nginx added for load balancing (round robin default)
 
-to run (docker-compose only):
+to run with load balance (docker-compose only):
 ```shell
 docker-compose up --scale time_app=2
 ```
