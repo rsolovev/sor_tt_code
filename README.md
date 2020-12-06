@@ -22,3 +22,14 @@ curl -X GET localhost
 ```
 or
 http://localhost
+
+
+UPD: nginx added for load balancing
+
+to run (docker-compose only):
+```shell
+docker-compose up --scale time_app=2
+```
+Proof of Concept:
+
+![](https://i.imgur.com/cFlFYmM.png)
